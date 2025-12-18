@@ -1,0 +1,25 @@
+Exemple 1
+
+Résoudre :
+15x + 21y = 3
+	1.	\gcd(15,21) = 3
+	2.	3 \mid 3 → solutions existent
+	3.	Euclide étendu donne :
+15(3) + 21(-2) = 3
+	4.	Solution particulière :
+(x_p, y_p) = (3, -2)
+	5.	Solution générale :
+\begin{cases}
+x = 3 + 7k \\
+y = -2 - 5k
+\end{cases}, \quad k \in \mathbb{Z}
+
+⸻
+
+Exemple 2 (pas de solution)
+
+6x + 10y = 7
+	•	\gcd(6,10) = 2
+	•	2 \nmid 7
+
+❌ Aucune solution entière
